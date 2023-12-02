@@ -1,0 +1,42 @@
+@font-face {
+    font-family: OptimusPrinceps; 
+    src: url(OptimusPrinceps.ttf);
+}
+
+@font-face {
+    font-family: SINGLE; 
+    src: url(SINGLE.ttf);
+}
+    
+html {
+    background:grey;
+    background-image: url(IMG_8721.JPG);
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-4/cur308.ani), url(https://cur.cursors-4u.net/cursors/cur-4/cur308.png), auto !important; /* End https://www.cursors-4u.com */
+}
+
+
+body {text-align: center;}
+
+h1 {font-family: SINGLE;
+}
+
+h2 {font-family: OptimusPrinceps;
+}
+
+.image1 {height:300px;
+}
+
+.image2 {height:300px;
+}
+
+.img3 {height:300px;
+}
+
+.img4  {height:300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
